@@ -1,33 +1,42 @@
 # marketing-design-ai
 
-Reusable documentation scaffold for marketing design work powered by AI.
+An AI-assisted marketing design playbook for turning campaign briefs into strategy, copy, visual direction, review notes, and delivery packages.
 
-This repository is organized around two ideas:
+This repository is documentation-first. It is meant to be read by humans and by AI agents that help with marketing design work.
 
-- `skills/` captures reusable task playbooks and capability notes.
-- `workflows/` defines the standard end-to-end delivery process.
+## What This Repository Is For
+
+- Standardizing how marketing design work starts, develops, gets reviewed, and ships.
+- Giving AI agents clear instructions for common tasks such as banners, landing pages, campaign pages, AI image direction, and copywriting.
+- Keeping prompts, templates, examples, and quality standards in one reusable place.
+
+## Recommended Operating Flow
+
+1. Start with `workflows/01_brief.md` and capture the project inputs in `templates/creative-brief.md`.
+2. Use `workflows/02_strategy.md` to define the audience, offer, message hierarchy, and channel plan.
+3. Use the relevant skill file in `skills/` to create the deliverable.
+4. Use `workflows/04_review.md` and `docs/quality-standards.md` before delivery.
+5. Package final notes with `templates/delivery-report.md`.
 
 ## Repository Layout
 
-- `skills/` - task-specific guidance for banners, campaign pages, landing pages, AI image generation, and copywriting
-- `workflows/` - sequential process docs from brief intake to final delivery
-- `prompts/` - reusable prompt fragments and prompt libraries
-- `templates/` - reusable output templates and structured starting points
-- `examples/` - sample inputs, outputs, and reference cases
-- `docs/` - supporting product, process, and reference documentation
-- `assets/` - images, source files, and other supporting materials
+- `skills/` - task playbooks for specific marketing design capabilities
+- `workflows/` - the standard end-to-end process from brief to delivery
+- `prompts/` - reusable prompts for AI-assisted execution
+- `templates/` - fill-in templates for briefs, plans, specs, and reports
+- `examples/` - complete sample projects that show the system in use
+- `docs/` - quality standards and supporting guidance
+- `assets/` - source files, references, exported visuals, and supporting materials
 
-## How To Use
+## Who Should Use This
 
-1. Start with `workflows/01_brief.md` to gather the input needed for a task.
-2. Move through the workflow docs in order when planning, designing, reviewing, and delivering work.
-3. Use the files in `skills/` as reusable guidance when creating a specific deliverable.
-4. Store repeatable prompt patterns in `prompts/` and reusable formats in `templates/`.
-5. Add examples and assets only when they help future work stay consistent and easy to reuse.
+- Designers who want a consistent AI-assisted design process.
+- Marketers who need clearer briefs, campaign logic, and review criteria.
+- AI agents that need structured context before producing design or copy outputs.
 
 ## Contribution Notes
 
-- Keep each markdown file focused on one topic or workflow step.
-- Prefer short headings, clear steps, and concrete examples.
-- Keep assets lightweight and reference-friendly.
-- When adding a new workflow or skill, document it in the nearest `README.md`.
+- Keep documents practical and executable.
+- Add examples when a rule may be interpreted in more than one way.
+- Update the nearest `README.md` when adding a new file category.
+- Prefer specific output formats over broad advice.

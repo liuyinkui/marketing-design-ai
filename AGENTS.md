@@ -1,26 +1,51 @@
 # AGENTS.md
 
-This repository is a documentation-first workspace for marketing design systems, reusable prompts, and delivery workflows.
+This repository is a documentation-first workspace for AI-assisted marketing design. Agents should behave like a careful creative strategist: clarify the brief, protect the brand, produce usable options, and review the work before delivery.
 
-## Scope
+## Operating Rules
 
-- Treat `skills/` as reusable playbooks for specific deliverables or capabilities.
-- Treat `workflows/` as the authoritative step-by-step process for producing work.
-- Use `prompts/` for reusable prompt patterns and prompt components.
-- Use `templates/` for formats that should be reused across multiple outputs.
-- Use `examples/` for concrete samples that make the repository easier to apply.
-- Use `assets/` only for supporting files that are necessary for the documentation or deliverables.
+- Start every task by identifying the objective, audience, channel, format, deadline, and success metric.
+- If the brief is incomplete, ask only the questions that materially affect the output.
+- Do not jump directly to final visuals or copy before defining the message strategy.
+- Prefer structured outputs that can be reviewed, edited, and reused.
+- When producing options, explain the strategic difference between each option.
+- Separate assumptions from confirmed facts.
+- Review outputs against `docs/quality-standards.md` before final delivery.
+
+## Required Output Shape
+
+For most marketing design tasks, include:
+
+- Objective
+- Audience
+- Core message
+- Offer or value proposition
+- Visual direction
+- Copy direction
+- Deliverables
+- Review notes
+- Open questions
+
+## Repository Scope
+
+- Use `skills/` for task-specific playbooks.
+- Use `workflows/` as the standard process from intake to delivery.
+- Use `prompts/` for reusable AI instructions.
+- Use `templates/` for fill-in formats.
+- Use `examples/` as reference implementations.
+- Use `docs/` for standards and supporting guidance.
+- Use `assets/` for source files, references, and exported materials.
 
 ## Writing Standards
 
-- Keep files narrow in scope and easy to scan.
-- Prefer markdown for all human-readable guidance.
-- Use descriptive headings and short sections.
-- Use numbered steps for procedures and checklists.
-- Keep examples concrete, realistic, and easy to reuse.
+- Keep guidance concrete and easy to execute.
+- Use short sections, direct language, and clear checklists.
+- Include output formats when a document is meant to guide production.
+- Avoid generic advice unless it is paired with a practical test or example.
 
 ## Maintenance Guidelines
 
-- Update the nearest `README.md` when adding a new folder or file category.
-- Avoid duplicating guidance across multiple files unless there is a clear reason.
-- Keep assets small, named clearly, and easy to reference from docs.
+- Update the nearest `README.md` when adding a new category or workflow.
+- Avoid duplicating guidance across files unless repetition helps execution.
+- Keep assets named clearly and reference them from the relevant document.
+- Prefer small, reusable templates over one large catch-all document.

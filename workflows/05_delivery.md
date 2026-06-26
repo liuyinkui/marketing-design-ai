@@ -2,12 +2,27 @@
 
 ## Goal
 
-Package and hand off the final output.
+Package final work so it can be used, reviewed later, and improved in future campaigns.
 
 ## Steps
 
-1. Export final files.
-2. Document what was delivered.
-3. Include any usage notes.
-4. Store source files and references.
+1. Export final assets in all required formats.
+2. Name files consistently by campaign, channel, size, and version.
+3. Include source files and editable templates when needed.
+4. Document final copy, links, specs, and usage notes.
+5. List any assumptions, risks, or follow-up recommendations.
+6. Store reusable patterns in `prompts/`, `templates/`, or `examples/`.
 
+## Delivery Package
+
+- Final exports
+- Source files
+- Copy deck or copy notes
+- Design spec
+- Usage notes
+- Review summary
+- Open issues, if any
+
+## Recommended Report
+
+Use `templates/delivery-report.md` to keep each handoff consistent.
