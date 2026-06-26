@@ -1,20 +1,26 @@
 # AGENTS.md
 
-This repository organizes marketing design knowledge, prompts, and workflows.
+This repository is a documentation-first workspace for marketing design systems, reusable prompts, and delivery workflows.
 
-## Guidance for contributors
+## Scope
 
-- Keep each file focused on one topic or workflow step.
-- Prefer markdown for documentation and guidance.
-- Use `skills/` for reusable task playbooks.
-- Use `workflows/` for sequential operating procedures.
-- Put reusable prompt material in `prompts/`.
-- Put sample outputs in `examples/`.
-- Keep assets lightweight and reference-friendly.
+- Treat `skills/` as reusable playbooks for specific deliverables or capabilities.
+- Treat `workflows/` as the authoritative step-by-step process for producing work.
+- Use `prompts/` for reusable prompt patterns and prompt components.
+- Use `templates/` for formats that should be reused across multiple outputs.
+- Use `examples/` for concrete samples that make the repository easier to apply.
+- Use `assets/` only for supporting files that are necessary for the documentation or deliverables.
 
-## Expected conventions
+## Writing Standards
 
-- Write clear headings and short sections.
-- Use numbered steps for process docs.
-- Keep examples concrete and easy to reuse.
+- Keep files narrow in scope and easy to scan.
+- Prefer markdown for all human-readable guidance.
+- Use descriptive headings and short sections.
+- Use numbered steps for procedures and checklists.
+- Keep examples concrete, realistic, and easy to reuse.
 
+## Maintenance Guidelines
+
+- Update the nearest `README.md` when adding a new folder or file category.
+- Avoid duplicating guidance across multiple files unless there is a clear reason.
+- Keep assets small, named clearly, and easy to reference from docs.
